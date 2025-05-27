@@ -83,8 +83,10 @@ Or through the file explorer by activating the option **Show Hidden Files**.
 
 ![hiddenfiles](images/hiddenfiles.png)
 
-Then, on Github repository, go to Settings >> Deploy Keys >> Add Deploy Key. You will need to paste the contents and give the key a name. That's it! Check if it worked by cloning this repository using ssh:
+Then, on Github go to Settings >> SSH and GPG Keys >> New SSH key. You will need to paste the contents and give the key a name. That's it! Check if it worked by cloning this repository using ssh:
 
 ```bash
 git clone git@github.com:IgnacioDassori/test_repository.git
 ```
+
+This will allow you to push and pull without having to give any credentials.
